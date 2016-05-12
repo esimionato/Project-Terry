@@ -107,3 +107,5 @@ controls
 	in battle:
 	SPACE - attack
 	R     - run
+	O     - return to starting point of current map
+	P     - print location on map to REPL or terminal
