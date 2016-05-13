@@ -1,5 +1,8 @@
 README:
 
+https://drive.google.com/file/d/0B9DrT9nFKbYTbFdES25FQ0VaYW8/view?pref=2&pli=1
+https://github.com/Nickatana/Project-Terry
+
 author: Nicholas Peterson
 	npeterso@andrew.cmu.edu
 
