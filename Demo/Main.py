@@ -27,203 +27,219 @@ RESOURCES_DIR = 'data'
 HERO_MOVE_SPEED = 100  # pixels per second
 
 # filename + portal# : new filename
-InstDictIn = {"data/DragonQuest.tmxportal1": "town.tmx", 
-"data/DragonQuest.tmxportal2": "castleTown.tmx",
-"data/DragonQuest.tmxportal3": "towerEntrance.tmx",
-"data/DragonQuest.tmxportal4": "temple1.tmx", 
+InstDictIn = {
+    "data/DragonQuest.tmxportal1": "town.tmx", 
+    "data/DragonQuest.tmxportal2": "castleTown.tmx",
+    "data/DragonQuest.tmxportal3": "towerEntrance.tmx",
+    "data/DragonQuest.tmxportal4": "temple1.tmx", 
 
-"data/town.tmxportal1": "town1-house1.tmx",
-"data/town1.tmxportal1": "town1-house1.tmx",
-"data/town2.tmxportal1": "town1-house1.tmx",
-"data/town.tmxportal2": "town1-inn.tmx",
-"data/town1.tmxportal2": "town1-inn.tmx",
-"data/town2.tmxportal2": "town1-inn.tmx",
-
-
-"data/castleTown.tmxportal1": "castleTown-inn.tmx",
-
-"data/towerEntrance.tmxportal1": "Tower.tmx",
-"data/temple1.tmxportal1": "temple2.tmx",
-"data/town1-house1.tmxportal1": "house1Basement.tmx",
-"data/house1Basement.tmxportal1": "house1Basement2.tmx",
-# start puzzle
-"data/house1Basement2.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2.tmxportal6": "house1Basement2-6.tmx",
-
-"data/house1Basement2-1.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-1.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-1.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-1.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-1.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-1.tmxportal6": "house1Basement2-6.tmx",
-
-"data/house1Basement2-2.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-2.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-2.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-2.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-2.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-2.tmxportal6": "house1Basement2-6.tmx",
-
-"data/house1Basement2-3.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-3.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-3.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-3.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-3.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-3.tmxportal6": "house1Basement2-6.tmx",
-
-"data/house1Basement2-4.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-4.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-4.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-4.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-4.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-4.tmxportal6": "house1Basement2-6.tmx",
+    "data/town.tmxportal1": "town1-house1.tmx",
+    "data/town1.tmxportal1": "town1-house1.tmx",
+    "data/town2.tmxportal1": "town1-house1.tmx",
+    "data/town.tmxportal2": "town1-inn.tmx",
+    "data/town1.tmxportal2": "town1-inn.tmx",
+    "data/town2.tmxportal2": "town1-inn.tmx",
 
 
-"data/house1Basement2-5.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-5.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-5.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-5.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-5.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-5.tmxportal6": "house1Basement2-6.tmx",
+    "data/castleTown.tmxportal1": "castleTown-inn.tmx",
 
-"data/house1Basement2-6.tmxportal1": "house1Basement2-7.tmx",
-"data/house1Basement2-6.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-6.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-6.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-6.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-6.tmxportal6": "house1Basement2-3.tmx",
+    "data/towerEntrance.tmxportal1": "Tower.tmx",
+    "data/temple1.tmxportal1": "temple2.tmx",
+    "data/town1-house1.tmxportal1": "house1Basement.tmx",
+    "data/house1Basement.tmxportal1": "house1Basement2.tmx",
+    # start of puzzle
+    "data/house1Basement2.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2.tmxportal6": "house1Basement2-6.tmx",
 
-"data/house1Basement2-7.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-7.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-7.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-7.tmxportal4": "house1Basement2-8.tmx",
-"data/house1Basement2-7.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-7.tmxportal6": "house1Basement2-3.tmx",
+    "data/house1Basement2-1.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-1.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-1.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-1.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-1.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-1.tmxportal6": "house1Basement2-6.tmx",
 
-"data/house1Basement2-8.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-8.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-8.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-8.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-8.tmxportal5": "house1Basement2-9.tmx",
-"data/house1Basement2-8.tmxportal6": "house1Basement2-3.tmx",
+    "data/house1Basement2-2.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-2.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-2.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-2.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-2.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-2.tmxportal6": "house1Basement2-6.tmx",
 
-"data/house1Basement2-9.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-9.tmxportal2": "house1Basement2-10.tmx",
-"data/house1Basement2-9.tmxportal3": "house1Basement2-3.tmx",
-"data/house1Basement2-9.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-9.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-9.tmxportal6": "house1Basement2-3.tmx",
+    "data/house1Basement2-3.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-3.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-3.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-3.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-3.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-3.tmxportal6": "house1Basement2-6.tmx",
 
-
-"data/house1Basement2-10.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-10.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-10.tmxportal3": "house1Basement2-11.tmx",
-"data/house1Basement2-10.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-10.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-10.tmxportal6": "house1Basement2-3.tmx",
-
-"data/house1Basement2-11.tmxportal1": "house1Basement2-1.tmx",
-"data/house1Basement2-11.tmxportal2": "house1Basement2.tmx",
-"data/house1Basement2-11.tmxportal3": "house1Basement2-11.tmx",
-"data/house1Basement2-11.tmxportal4": "house1Basement2-2.tmx",
-"data/house1Basement2-11.tmxportal5": "house1Basement2-5.tmx",
-"data/house1Basement2-11.tmxportal6": "house1Basement2-3.tmx",
-
-# end puzzle
-"data/house1Basement2-11.tmxportal7": "house1Basement3.tmx",
-"data/house1Basement3.tmxportal1": "town1.tmx",
-"data/house1Basement3-1.tmxportal1": "town1.tmx",
+    "data/house1Basement2-4.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-4.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-4.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-4.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-4.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-4.tmxportal6": "house1Basement2-6.tmx",
 
 
-"data/town1.tmxportal10": "house1Basement3-1.tmx",
-"data/town2.tmxportal10": "house1Basement3-1.tmx",
+    "data/house1Basement2-5.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-5.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-5.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-5.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-5.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-5.tmxportal6": "house1Basement2-6.tmx",
+
+    "data/house1Basement2-6.tmxportal1": "house1Basement2-7.tmx",
+    "data/house1Basement2-6.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-6.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-6.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-6.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-6.tmxportal6": "house1Basement2-3.tmx",
+
+    "data/house1Basement2-7.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-7.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-7.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-7.tmxportal4": "house1Basement2-8.tmx",
+    "data/house1Basement2-7.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-7.tmxportal6": "house1Basement2-3.tmx",
+
+    "data/house1Basement2-8.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-8.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-8.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-8.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-8.tmxportal5": "house1Basement2-9.tmx",
+    "data/house1Basement2-8.tmxportal6": "house1Basement2-3.tmx",
+
+    "data/house1Basement2-9.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-9.tmxportal2": "house1Basement2-10.tmx",
+    "data/house1Basement2-9.tmxportal3": "house1Basement2-3.tmx",
+    "data/house1Basement2-9.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-9.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-9.tmxportal6": "house1Basement2-3.tmx",
+
+
+    "data/house1Basement2-10.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-10.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-10.tmxportal3": "house1Basement2-11.tmx",
+    "data/house1Basement2-10.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-10.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-10.tmxportal6": "house1Basement2-3.tmx",
+
+    "data/house1Basement2-11.tmxportal1": "house1Basement2-1.tmx",
+    "data/house1Basement2-11.tmxportal2": "house1Basement2.tmx",
+    "data/house1Basement2-11.tmxportal3": "house1Basement2-11.tmx",
+    "data/house1Basement2-11.tmxportal4": "house1Basement2-2.tmx",
+    "data/house1Basement2-11.tmxportal5": "house1Basement2-5.tmx",
+    "data/house1Basement2-11.tmxportal6": "house1Basement2-3.tmx",
+
+    # end of puzzle
+    "data/house1Basement2-11.tmxportal7": "house1Basement3.tmx",
+    "data/house1Basement3.tmxportal1": "town1.tmx",
+    "data/house1Basement3-1.tmxportal1": "town1.tmx",
+
+
+    "data/town1.tmxportal10": "house1Basement3-1.tmx",
+    "data/town2.tmxportal10": "house1Basement3-1.tmx",
 
             }
 # current filename: instance portalO (portal out)
-InstDictOut = {"data/town.tmx": "DragonQuest.tmx", 
-"data/town1-house1.tmx": "town.tmx", "data/DragonQuest.tmx": "DragonQuest.tmx",
-"data/castleTown.tmx": "DragonQuest.tmx", 
-"data/towerEntrance.tmx": "DragonQuest.tmx",
-"data/town1-inn.tmx": "town.tmx", "data/castleTown-inn.tmx": "castleTown.tmx",
-"data/temple1.tmx": "DragonQuest.tmx",
-"data/Tower.tmx": "towerEntrance.tmx",
-"data/TowerNoDragon.tmx": "towerEntrance.tmx",
-"data/data/TowerNoDragon.tmx": "towerEntrance.tmx",
-"data/temple2.tmx": "temple1.tmx",
-"data/house1Basement.tmx": "town1-house1.tmx",
-"data/house1Basement2.tmx": "house1Basement.tmx",
-"data/house1Basement2-1.tmx": "house1Basement.tmx",
-"data/house1Basement2-2.tmx": "house1Basement.tmx",
-"data/house1Basement2-3.tmx": "house1Basement.tmx",
-"data/house1Basement2-4.tmx": "house1Basement.tmx",
-"data/house1Basement2-5.tmx": "house1Basement.tmx",
-"data/house1Basement2-6.tmx": "house1Basement.tmx",
-"data/house1Basement2-7.tmx": "house1Basement.tmx",
-"data/house1Basement2-8.tmx": "house1Basement.tmx",
-"data/house1Basement2-9.tmx": "house1Basement.tmx",
-"data/house1Basement2-10.tmx": "house1Basement.tmx",
-"data/house1Basement2-11.tmx": "house1Basement.tmx",
+InstDictOut = {
+    "data/town.tmx": "DragonQuest.tmx", 
+    "data/town1-house1.tmx": "town.tmx", 
+    "data/DragonQuest.tmx": "DragonQuest.tmx",
+    "data/castleTown.tmx": "DragonQuest.tmx", 
+    "data/towerEntrance.tmx": "DragonQuest.tmx",
+    "data/town1-inn.tmx": "town.tmx", 
+    "data/castleTown-inn.tmx": "castleTown.tmx",
+    "data/temple1.tmx": "DragonQuest.tmx",
+    "data/Tower.tmx": "towerEntrance.tmx",
+    "data/TowerNoDragon.tmx": "towerEntrance.tmx",
+    "data/data/TowerNoDragon.tmx": "towerEntrance.tmx",
+    "data/temple2.tmx": "temple1.tmx",
 
-"data/house1Basement3.tmx": "house1Basement2-11.tmx",
-"data/town1.tmx": "DragonQuest.tmx",
-"data/town2.tmx": "DragonQuest.tmx",
-"data/house1Basement3-1.tmx": "house1Basement2-11.tmx"
+    "data/house1Basement.tmx": "town1-house1.tmx",
+    "data/house1Basement2.tmx": "house1Basement.tmx",
+    "data/house1Basement2-1.tmx": "house1Basement.tmx",
+    "data/house1Basement2-2.tmx": "house1Basement.tmx",
+    "data/house1Basement2-3.tmx": "house1Basement.tmx",
+    "data/house1Basement2-4.tmx": "house1Basement.tmx",
+    "data/house1Basement2-5.tmx": "house1Basement.tmx",
+    "data/house1Basement2-6.tmx": "house1Basement.tmx",
+    "data/house1Basement2-7.tmx": "house1Basement.tmx",
+    "data/house1Basement2-8.tmx": "house1Basement.tmx",
+    "data/house1Basement2-9.tmx": "house1Basement.tmx",
+    "data/house1Basement2-10.tmx": "house1Basement.tmx",
+    "data/house1Basement2-11.tmx": "house1Basement.tmx",
+
+    "data/house1Basement3.tmx": "house1Basement2-11.tmx",
+    "data/town1.tmx": "DragonQuest.tmx",
+    "data/town2.tmx": "DragonQuest.tmx",
+    "data/house1Basement3-1.tmx": "house1Basement2-11.tmx"
             }
 
 # current filename : song
-MusicDict = {"data/town.tmx": "MelodyOfLove.wav", 
-"town.tmx": "MelodyOfLove.wav", 
-"town1-house1.tmx": "MelodyOfLove.wav",
-"data/town1-house1.tmx": "MelodyOfLove.wav",
-"data/DragonQuest.tmx": "ThroughTheFields.wav", 
-"DragonQuest.tmx": "ThroughTheFields.wav",
-"data/castleTown.tmx": "Strolling.wav",
-"castleTown.tmx": "Strolling.wav","data/towerEntrance.tmx": 
-"UnknownWorld.wav",
-"towerEntrance.tmx": "UnknownWorld.wav",
-"town1-inn.tmx": "MoonRiverPub.wav", "data/town1-inn.tmx": "MoonRiverPub.wav",
-"data/castleTown-inn.tmx": "AncientTown.wav", 
-"castleTown-inn.tmx": "AncientTown.wav",
-"temple1.tmx": "Endless.wav", "data/temple1.tmx": "Endless.wav",
-"Tower.tmx": "UnknownWorld.wav", "data/Tower.tmx": "UnknownWorld.wav",
-"data/TowerNoDragon.tmx": "UnknownWorld.wav",
-"data/temple2.tmx": "Endless.wav",
-"data/house1Basement.tmx": "Psaro.wav",
-"data/house1Basement2.tmx": "Psaro.wav",
-"data/house1Basement2-1.tmx": "Psaro.wav",
-"data/house1Basement2-2.tmx": "Psaro.wav",
-"data/house1Basement2-3.tmx": "Psaro.wav",
-"data/house1Basement2-4.tmx": "Psaro.wav",
-"data/house1Basement2-5.tmx": "Psaro.wav",
-"data/house1Basement2-6.tmx": "Psaro.wav",
-"data/house1Basement2-7.tmx": "Psaro.wav",
-"data/house1Basement2-8.tmx": "Psaro.wav",
-"data/house1Basement2-9.tmx": "Psaro.wav",
-"data/house1Basement2-10.tmx": "Psaro.wav",
-"data/house1Basement2-11.tmx": "Psaro.wav",
-"data/house1Basement3.tmx": "AncientTown.wav",
-"data/house1Basement3-1.tmx": "AncientTown.wav",
-"data/town1.tmx": "MelodyOfLove.wav",
-"data/town2.tmx": "MelodyOfLove.wav",
+MusicDict = {
+    "data/town.tmx": "MelodyOfLove.wav", 
+    "town.tmx": "MelodyOfLove.wav", 
+    "town1-house1.tmx": "MelodyOfLove.wav",
+    "data/town1-house1.tmx": "MelodyOfLove.wav",
+    "data/DragonQuest.tmx": "ThroughTheFields.wav", 
+    "DragonQuest.tmx": "ThroughTheFields.wav",
+    "data/castleTown.tmx": "Strolling.wav",
+    "castleTown.tmx": "Strolling.wav","data/towerEntrance.tmx": 
+    "UnknownWorld.wav",
+    "towerEntrance.tmx": "UnknownWorld.wav",
+    "town1-inn.tmx": "MoonRiverPub.wav", 
+    "data/town1-inn.tmx": "MoonRiverPub.wav",
+    "data/castleTown-inn.tmx": "AncientTown.wav", 
+    "castleTown-inn.tmx": "AncientTown.wav",
+    "temple1.tmx": "Endless.wav", 
+    "data/temple1.tmx": "Endless.wav",
+    "Tower.tmx": "UnknownWorld.wav", 
+    "data/Tower.tmx": "UnknownWorld.wav",
+    "data/TowerNoDragon.tmx": "UnknownWorld.wav",
+    "data/temple2.tmx": "Endless.wav",
+
+    "data/house1Basement.tmx": "Psaro.wav",
+    "data/house1Basement2.tmx": "Psaro.wav",
+    "data/house1Basement2-1.tmx": "Psaro.wav",
+    "data/house1Basement2-2.tmx": "Psaro.wav",
+    "data/house1Basement2-3.tmx": "Psaro.wav",
+    "data/house1Basement2-4.tmx": "Psaro.wav",
+    "data/house1Basement2-5.tmx": "Psaro.wav",
+    "data/house1Basement2-6.tmx": "Psaro.wav",
+    "data/house1Basement2-7.tmx": "Psaro.wav",
+    "data/house1Basement2-8.tmx": "Psaro.wav",
+    "data/house1Basement2-9.tmx": "Psaro.wav",
+    "data/house1Basement2-10.tmx": "Psaro.wav",
+    "data/house1Basement2-11.tmx": "Psaro.wav",
+
+    "data/house1Basement3.tmx": "AncientTown.wav",
+    "data/house1Basement3-1.tmx": "AncientTown.wav",
+    "data/town1.tmx": "MelodyOfLove.wav",
+    "data/town2.tmx": "MelodyOfLove.wav",
             }
 
 # key current filename: entrance location on old filename
-OldEntranceDict = {"data/town.tmx": (1024, 750), 
+OldEntranceDict = {
+    "data/town.tmx": (1024, 750), 
     "data/town1-house1.tmx": (542, 630),
     "data/town1.tmx": (1024, 750),
     "data/town2.tmx": (1024, 750),
      "data/DragonQuest.tmx": (1000, 1000),
-    "data/castleTown.tmx": (961, 250), "data/towerEntrance.tmx": (767, 327.5),
+    "data/castleTown.tmx": (961, 250), 
+    "data/towerEntrance.tmx": (767, 327.5),
     "data/town1-inn.tmx": (396.4, 124.2),
-    "data/castleTown-inn.tmx": (813, 1010), "data/temple1.tmx": (1402, 565.4),
+    "data/castleTown-inn.tmx": (813, 1010), 
+    "data/temple1.tmx": (1402, 565.4),
     "data/Tower.tmx": (406, 625.5),
     "data/TowerNoDragon.tmx": (406, 625.5),
     "data/temple2.tmx": (289, 302),
+
     "data/house1Basement.tmx": (129.7, 145.3),
+
     "data/house1Basement2.tmx": (286.75, 43.9),
     "data/house1Basement2-1.tmx": (286.75, 43.9),
     "data/house1Basement2-2.tmx": (286.75, 43.9),
@@ -237,15 +253,14 @@ OldEntranceDict = {"data/town.tmx": (1024, 750),
     "data/house1Basement2-10.tmx": (286.75, 43.9),
     "data/house1Basement2-11.tmx": (286.75, 43.9),
     
-
-
     "data/house1Basement3.tmx": (286.3, 792.0),
     "data/house1Basement3-1.tmx": (286.3, 792.0)
 
             }
 
 # number roll: monster name
-monsterDict = {0: "slime", 1: "slime", 
+monsterDict = {
+    0: "slime", 1: "slime", 
     2: "red slime",  3: "red slime", 
     4: "draky", 
     5: "mud man", 6: "draky", 7: "mud man", 8: "draky", 9: "slime",
@@ -253,19 +268,22 @@ monsterDict = {0: "slime", 1: "slime",
     15: "draky"
             }
 # number roll: monster name, second dictionary (harder monsters)
-monsterDict2 = {0: "draky", 1: "mud man", 2: "rogue knight", 3: "skeleton",
-4: "rogue knight", 5: "rogue knight", 6: "skeleton", 7: "skeleton",
-8: "skeleton", 9: "skeleton", 10: "golem", 11: "golem", 12: "golem"
+monsterDict2 = {
+    0: "draky", 1: "mud man", 2: "rogue knight", 3: "skeleton",
+    4: "rogue knight", 5: "rogue knight", 6: "skeleton", 7: "skeleton",
+    8: "skeleton", 9: "skeleton", 10: "golem", 11: "golem", 12: "golem"
             }
 # hold names of bosses to call and give special text appearance
-bossDict = { "Wight Knight",
+bossDict = { 
+    "Wight Knight",
 
             }
 
 
 # monster name: (image.png, (resizeX, resizeY), Y adjustor up/down, +-adj)
                                             # (negative adj for left)
-monsterImageDict = {"slime": ("slime.png", (90, 90), 40), 
+monsterImageDict = {
+    "slime": ("slime.png", (90, 90), 40), 
     "mud man": ("mudMan.png", (180, 185), -10), 
     "draky": ("draky.png", (150, 100), 20),
     "red slime": ("redslime.png", (80, 80), 40),
@@ -281,7 +299,8 @@ monsterImageDict = {"slime": ("slime.png", (90, 90), 40),
             }
 
 # hp str def
-monsterStatDict = {"slime":(("hitpoints. strength. defense."), (5, 3, 5)),
+monsterStatDict = {
+    "slime":(("hitpoints. strength. defense."), (5, 3, 5)),
     "red slime": (("hp. str. def."), (6, 7, 4)),
     "draky": (("hp. str. def."), (10, 8, 4)),
     "mud man": (("hp. str. def."), (12, 10, 7)),
@@ -296,26 +315,30 @@ monsterStatDict = {"slime":(("hitpoints. strength. defense."), (5, 3, 5)),
             }
 
 # monster name: exp reward
-expDict = {"slime": 5, "red slime": 10, "draky": 15, "mud man": 30,
-     "dragon": 5500, "skeleton": 60, "rogue knight": 90, "ghost": 20, 
-     "golem": 350, "axeman": 500, "berserker": 800, "ent": 525,
-     "Wight Knight": 9000
+expDict = {
+    "slime": 5, "red slime": 10, "draky": 15, "mud man": 30,
+    "dragon": 5500, "skeleton": 60, "rogue knight": 90, "ghost": 20, 
+    "golem": 350, "axeman": 500, "berserker": 800, "ent": 525,
+    "Wight Knight": 9000
             }
 
 # tmx object.name: (row, cols, row, col)
-villagerDict = {"oldMan2": (8, 12, 2, 4), "girl1": (8, 12, 1, 7),
+villagerDict = {
+    "oldMan2": (8, 12, 2, 4), "girl1": (8, 12, 1, 7),
     "man1": (8, 12, 2, 10), "merchant1": (8, 12, 6, 4),
     "oldMan1Back": (8, 12, 0, 1), "man2": (8, 12, 6, 1), "girl2": (8, 12, 2, 7),
     "noble1": (8, 12, 6, 10), "merchant2": (8, 12, 7, 4)
             }
 
 # see villagerDict
-villager2Dict = {"nun1": (8, 12, 6, 10), "fighter": (8, 12, 2, 1),
+villager2Dict = {
+    "nun1": (8, 12, 6, 10), "fighter": (8, 12, 2, 1),
     "priest": (8, 12, 2, 10), "guard": (8, 12, 2, 4)
             }
 
 # if changing values, make sure hitpoints <= maxHitpoints
-heroStats = {"maxHitpoints": 27, "hitpoints": 27, "strength": 8, 
+heroStats = {
+    "maxHitpoints": 27, "hitpoints": 27, "strength": 8, 
     "defense": 7, "agility": 10, "level": 1, "exp": 0
             }
 
@@ -325,31 +348,34 @@ agilityDict = {2: 2, 3: 3, 4: 3, 6: 5, 9: 5, 12: 10, 15: 10, 19: 20
 
 
 # current level: exp threshold to level up to next
-levelDict = {1: 30, 2: 90, 3: 240, 4: 480, 5: 900, 6: 1000, 7: 2000, 8: 3500, 
-            9: 6000, 10: 9500, 11: 15000, 12: 22000, 13: 31000, 14: 50000,
-            15: 69000, 16: 90000, 17: 120000, 18: 151000, 19: 200000
+levelDict = {
+    1: 30, 2: 90, 3: 240, 4: 480, 5: 900, 6: 1000, 7: 2000, 8: 3500, 
+    9: 6000, 10: 9500, 11: 15000, 12: 22000, 13: 31000, 14: 50000,
+    15: 69000, 16: 90000, 17: 120000, 18: 151000, 19: 200000
             }
 
 # tilemap: "mode" of the map to enable different monsterDict
-battleDict = {"data/temple1.tmx" :"Overworld",
-     "data/towerEntrance.tmx": "Peaceful",
-     "data/Tower.tmx": "Dungeon",
-     "data/DragonQuest.tmx": "Overworld",
-     "data/temple2.tmx": "Dungeon2",
-     "data/house1Basement.tmx": "Dungeon3",
-     "data/house1Basement2.tmx": "Peaceful"
-     }
+battleDict = {
+    "data/temple1.tmx" :"Overworld",
+    "data/towerEntrance.tmx": "Peaceful",
+    "data/Tower.tmx": "Dungeon",
+    "data/DragonQuest.tmx": "Overworld",
+    "data/temple2.tmx": "Dungeon2",
+    "data/house1Basement.tmx": "Dungeon3",
+    "data/house1Basement2.tmx": "Peaceful"
+            }
 
 # key filename: image background for battle mode
-backgroundDict ={"data/Tower.tmx": "Resources/towerInside.jpg", 
-        "Tower.tmx": "Resources/towerInside.jpg", 
-        "data/temple1.tmx": "Resources/desert.jpg", 
-        "data/house1Basement.tmx": "Resources/cellar.jpg",
-        "data/temple2.tmx": "Resources/desertDungeon.jpg",
-        "data/temple1.tmx": "Resources/desert.png",
-        "data/house1Basement2.tmx": "Resources/cellar.jpg"
+backgroundDict = {
+    "data/Tower.tmx": "Resources/towerInside.jpg", 
+    "Tower.tmx": "Resources/towerInside.jpg", 
+    "data/temple1.tmx": "Resources/desert.jpg", 
+    "data/house1Basement.tmx": "Resources/cellar.jpg",
+    "data/temple2.tmx": "Resources/desertDungeon.jpg",
+    "data/temple1.tmx": "Resources/desert.png",
+    "data/house1Basement2.tmx": "Resources/cellar.jpg"
 
-        }
+             }
 
 
 ################################################################################
@@ -813,11 +839,11 @@ class Monster(object):
 
 
 
-
 # character sprite controlled by player
 class Hero(Pallete):
     def __init__(self):
         # main objective of game (for now) bool initialized
+        self.attacking = False
         self.dragonKilled = False
         # player names character
         self.name = input("Enter your name: ")
@@ -845,7 +871,8 @@ class Hero(Pallete):
             self.rights.append(image.subsurface(
                         ((col+3) * charWidth, 5 * charHeight, 
                             charWidth, charHeight)))
-            self.rights[col] = pygame.transform.scale(self.rights[col], (33, 41))
+            self.rights[col] = pygame.transform.scale(self.rights[col], 
+                                                            (33, 41))
             self.downs.append(image.subsurface(
                         ((col+3) * charWidth, 4 * charHeight, 
                             charWidth, charHeight)))
@@ -926,7 +953,6 @@ class Hero(Pallete):
         # cannot attack if either are monster or hero are fainted
         if other.hitpoints <= 0 or self.hitpoints <= 0:
             return None   # end function
-
         if other.hitpoints > 0:
             # attack sound
             playSound("attack.wav", .3)
@@ -1002,7 +1028,7 @@ class Hero(Pallete):
 
             # victory sound
             playSound("winbattle.wav", .2)
-          
+            self.attacking = False
             timeDelay(2500)
 
      
@@ -1282,9 +1308,16 @@ class QuestGame(object):
                     print(self.hero.position)
                 if self.mode == "Battle":
                     if event.key == K_SPACE:
+                        if self.hero.attacking == True: 
+                            self.hero.attacking = False
+                            return None
                         if self.battle != 1:
-                            if self.hero.hitpoints > 0:
-                                self.hero.attack(self.battle.monster)
+                            if self.hero.attacking == False:
+                                hp1 = self.hero.hitpoints
+                                hp2 = self.battle.monster.hitpoints
+                                if hp1 > 0 and hp2 > 0:
+                                    self.hero.attacking = True
+                                    self.hero.attack(self.battle.monster)
 
                 if self.moving == False:
                  # boolean for player character being able to move after battle
